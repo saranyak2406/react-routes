@@ -1,0 +1,75 @@
+/* Ensure body and html take full height */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* Wrapper for Login/Register page */
+.auth-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full viewport height */
+}
+
+/* Content area: center the box */
+.auth-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* takes available space before footer */
+}
+
+/* Auth box styling */
+.auth-box {
+  width: 350px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Form styling */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.auth-form button {
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.auth-form button:hover {
+  background: #0056b3;
+}
+
+/* Switch text (Login ↔ Register) */
+.auth-switch {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+/* Footer stays at bottom */
+footer {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}

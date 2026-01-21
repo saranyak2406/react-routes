@@ -1,0 +1,91 @@
+.app {
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #1a1a1a;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: #007bff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links a,
+.nav-links span {
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  padding: 80px 60px;
+  background: #f0f8ff;
+}
+
+.badge {
+  border: 1px solid #007bff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  color: #007bff;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background: #007bff;
+  border-radius: 50%;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 30px 0 20px;
+}
+
+.green {
+  color: #007bff;
+}
+
+.hero-text {
+  max-width: 600px;
+  color: #555;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 16px;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: white;
+  padding: 12px 26px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.btn-outline {
+  border: 1px solid #007bff;
+  background: transparent;
+  color: #007bff;
+  padding: 12px 26px;
+  border-radius: 25px;
+}
